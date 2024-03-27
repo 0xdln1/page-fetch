@@ -2,7 +2,7 @@
 
 
 ```bash
-go install github.com/0xdln1/page-fetch@latest
+git clone https://github.com/0xdln1/page-fetch.git ; cd page-fetch ; go build . ; sudo mv page-fetch /usr/local/bin ; cd .. ; rm -rf page-fetch
 ```
 
 
