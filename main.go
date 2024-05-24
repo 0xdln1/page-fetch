@@ -295,7 +295,7 @@ func makeListener(ctx context.Context, requestURL string, opts options) func(int
 					ctx,
 					chromedp.ActionFunc(func(ctx context.Context) error {
 						// Log the request
-						fmt.Printf("%s %s %s %d %s\n",requestURL, ev.Request.Method, ev.Request.URL, ev.ResponseStatusCode, contentType)
+						fmt.Printf("%s %s %s %d %s\n",requestURL, ev.Request.URL, ev.Request.Method, ev.ResponseStatusCode, contentType)
 
 						return nil
 					}),
